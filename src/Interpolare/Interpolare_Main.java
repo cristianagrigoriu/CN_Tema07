@@ -23,7 +23,7 @@ public class Interpolare_Main {
 				rf.readFromFileTrig(fileName);
 				
 				Trigonometrics t = new Trigonometrics();
-				t.buildTMatrix();
+				t.computeTrigValue();
 			}
 		}
 	}
